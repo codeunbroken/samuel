@@ -1,0 +1,39 @@
+.extented{
+    height: 100%;
+    background: #5D00B8;
+}
+.extended__container{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:72px;
+    padding: 80px 0;
+}
+.extension{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #EFF2EF;
+}
+.text{
+    width: 800px;
+    font-size: 32px;
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: #d3d4d3;
+    line-height: 145%;
+}
+hr{
+    color: #EFF2EF;
+}
+.exten{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

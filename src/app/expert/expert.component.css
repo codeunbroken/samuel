@@ -1,0 +1,67 @@
+.expert{
+    height: 100%;
+    background: #040000;
+    padding: 80px 0;
+}
+.expert__container{
+    width: 80%;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.expert__top{
+    display: flex;
+    width: 100%; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.expert__bottom{
+    height: 500px;
+    width: 100%;
+    background: url(../../asset/motionn.svg);
+    background-size: cover space;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+.visual{
+    background: url(../../asset/visual.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+.interaction{
+    width: 100%;
+    height: 500px;
+    background: url(../../asset/inter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: center;
+
+}
+.vis{
+    font-size: 74px;
+    font-weight: 600;
+    line-height: 85%;
+    color: #E4F51F;
+    padding: 40px;
+}
+.inter{
+    font-size: 74px;
+    font-weight: 600;
+    line-height: 85%;
+    color: #171717;
+    padding: 40px;
+}
+.mot{
+    font-size: 74px;
+    font-weight: 600;
+    line-height: 85%;
+    color: #ebebeb;
+    padding: 40px;
+}
