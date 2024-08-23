@@ -1,6 +1,7 @@
 .extented{
     height: 100%;
-    background: #5D00B8;
+    /* background: var(--blue); */
+    background: #040000;
 }
 .extended__container{
     width: 80%;
@@ -18,6 +19,9 @@
     font-optical-sizing: auto;
     font-style: normal;
     color: #EFF2EF;
+}
+hr{
+    color: #585858;
 }
 .text{
     width: 800px;

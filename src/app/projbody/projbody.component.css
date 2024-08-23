@@ -1,0 +1,192 @@
+.project__section {
+    background: #000;
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    font-family: "Archivo", sans-serif;
+  }
+  .nav__bar{
+    background: white;
+    padding: 20px 32px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 100px;
+    position: fixed;
+  }
+  .project{
+      color: var(--gold) !important;
+  }
+  .project__container {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+  .project__title {
+    font-family: "Archivo", sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+  }
+  .project__description {
+    font-family: "Archivo", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    color: #f8f8f8;
+    width: 80%;
+    margin: auto;
+    line-height: 100%;
+    text-align: center;
+  }
+  .project__paragraph{
+    width: 50%;
+    font-size: 24px;
+    margin: auto;
+    color: var(--gold);
+    text-align: center;
+    font-weight: 200;
+    line-height: 135%;
+  }
+  .project__text {
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    color: #ffffff;
+    width: 70%;
+    line-height: 165%;
+  }
+  .project__top {
+    height: 100vh;
+    background: #181717;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 10px;
+    /* padding-top: 140px; */
+    margin-top: 30px;
+  }
+  .project__hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+    height: 100%;
+    margin-top: 7%;
+  }
+  .project__mid__bottom {
+    height: 100vh;
+    background: url(../../asset/mli1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .project__mid__bottomTwo {
+    height: 100vh;
+    background: url(../../asset/special24.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .mid__top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+  .view__btn{
+      height: 48px;
+      color: var(--gold);
+      background: var(--blue);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 12px;
+      border-radius: 100px;
+  }
+  .view__btn:hover{
+    background: white;
+    color: var(--blue);
+    cursor: pointer;
+  }
+  .view{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .project__number {
+    font-family: "Archivo", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #505050;
+  }
+  .project__heading {
+    font-family: "Archivo", sans-serif;
+    font-size: 40px;
+    color: #efefef;
+    font-weight: 400;
+  }
+  .project__mid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 180px;
+  }
+  .project__mid__top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .btn__link {
+    display: flex;
+    gap: 15px;
+  }
+  .link__one a {
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+  }
+  .link__one a:hover {
+    color: var(--gold);
+    cursor: pointer;
+  }
+  .link__two {
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+  }
+  .link__two:hover {
+    color: var(--gold);
+    cursor: pointer;
+  }
+  hr {
+    color: aliceblue;
+    width: 100%;
+  }
+  ul {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+  
+  ul li {
+    list-style: none;
+    color: var(--black);
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  ul li:hover {
+    cursor: pointer;
+    color: var(--gold);
+  }
+  

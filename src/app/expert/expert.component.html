@@ -1,20 +1,45 @@
-<div class="expert">
+<div class="expert__section">
     <div class="expert__container">
-        <div class="expert__top">
-            <div class="visual">
-                <p class="vis">Visual <br> Hierarchy</p>
-            </div>
-            <div class="interaction">
-               <p class="inter">Interaction <br> Design</p> 
-            </div>
+      <div class="nav__bar">
+        <ul>
+          <li class="home" (click)="onHome()">Home</li>
+          <li class="about" (click)="onConnect()">About</li>
+          <li class="expertise" (click)="onExpertise()">Expertise</li>
+          <li class="project" (click)="onProject()">Projects</li>
+          <li class="resume" (click)="onResume()">Resume</li>
+          <li class="contact">Contact Me</li>
+        </ul>
+      </div>
+      <div class="expert__top">
+        <div class="visual">
+          <p class="vis">
+            Visual <br />
+            Hierarchy
+          </p>
+          <p class="visual__text">
+            A clear visual hierarchy guides the eye to the most important elements
+            on the page. It can be created through variations in color and
+            contrast, scale, and grouping.
+          </p>
         </div>
-        <div class="expert__bottom">
-            <div class="motion">
-                <p class="mot">Motion <br> Design</p>
-            </div>
+        <div class="interaction">
+          <p class="inter">
+            Interaction <br />
+            Design
+          </p>
         </div>
+      </div>
+      <div class="expert__bottom">
+        <div class="motion">
+          <p class="mot">
+            Motion <br />
+            Design
+          </p>
+        </div>
+      </div>
     </div>
-</div>
-<div class="extend">
-    <app-extented></app-extented>
-</div>
+  </div>
+  <div class="extend">
+    <app-extended></app-extended>
+  </div>
+  
