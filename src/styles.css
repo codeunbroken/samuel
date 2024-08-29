@@ -6,3 +6,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+:root{
+    --gold: #d3f350;
+}

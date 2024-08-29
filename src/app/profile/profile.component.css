@@ -122,7 +122,7 @@
     padding-bottom: 10px;
   }
   .prod {
-    color: #efefef;
+    color: #6e6e73;
   }
   .inter {
     font-size: 24px;
@@ -144,5 +144,8 @@
   ul li:hover {
     cursor: pointer;
     color: var(--gold);
+  }
+  .expertise{
+    width: 100vw;
   }
   

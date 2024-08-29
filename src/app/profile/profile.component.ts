@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { ExpertComponent } from '../expert/expert.component';
 
 @Component({
   selector: 'app-profile',
   standalone: true,
-  imports: [],
+  imports: [ExpertComponent],
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.css'
 })
