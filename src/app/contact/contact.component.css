@@ -1,43 +1,39 @@
 .marquee-wrapper {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width: 100vw;
-    overflow: hidden;
-  }
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+}
 
-  .card {
-    border-radius: 0.75rem;
-    border: 1px solid var(--text-color);
-    padding: 2rem;
-    background: url(https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    object-fit: contain;
-    color: white;
-    height: 300px;
-    width: 320px;
-  }
+.card {
+  border-radius: 0.75rem;
+  border: 1px solid var(--text-color);
+  padding: 2rem;
+  background: url(https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  object-fit: contain;
+  color: white;
+  height: 300px;
+  width: 320px;
+}
 
-  .marquee-gradient {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 33%;
+.marquee-gradient {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 33%;
 
-    &.left {
-      left: 0;
-      background-image: linear-gradient(
-        to right,
+  &.left {
+    left: 0;
+    background-image: linear-gradient(to right,
         var(--surface-background),
-        transparent
-      );
-    }
-
-    &.right {
-      right: 0;
-      background-image: linear-gradient(
-        to left,
-        var(--surface-background),
-        transparent
-      );
-    }
+        transparent);
   }
+
+  &.right {
+    right: 0;
+    background-image: linear-gradient(to left,
+        var(--surface-background),
+        transparent);
+  }
+}
