@@ -1,7 +1,9 @@
 .body {
   height: 100%;
 }
-
+om-dotpattern{
+  overflow: hidden;
+}
 a {
   font-family: "Archivo", sans-serif;
   color: #a3a3a3;
