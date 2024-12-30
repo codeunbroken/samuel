@@ -1,10 +1,12 @@
 .about__section {
     height: 100%;
-    background: #0a0a0a;
+    background: var(--black);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+
   }
   .about__container {
     width: 80%;
@@ -81,13 +83,14 @@
   }
   .about {
     color: var(--gold) !important;
+    font-weight: 600;
   }
   .experience {
     font-size: 34px;
-    font-weight: 400;
+    font-weight: 600;
     font-family: "Archivo", sans-serif;
     font-optical-sizing: auto;
-    color: var(--red);
+    color: var(--black);
   }
   .exp__text {
     font-family: "Archivo", sans-serif;
@@ -103,22 +106,26 @@
   .skill__list {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 18px;
   }
   .skill__list p {
-    font-size: 46px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 200;
     font-family: "Archivo", sans-serif;
     font-optical-sizing: auto;
     color: #a3a3a3;
   }
+  hr{
+    color: #6e6e73 !important;
+    opacity: 0.1;
+  }
   .skill__title {
-    font-size: 80px;
+    font-size: 64px;
     font-weight: 400;
     font-family: "Archivo", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
-    color: #f8f8f8;
+    color: #6e6e73;
     padding-bottom: 10px;
   }
   .prod {

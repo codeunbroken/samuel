@@ -39,7 +39,7 @@
     padding: 0 40px;
     padding-left: 30px;
     font-size: 30px;
-    color: #bb0600;
+    color: var(--black);
     font-weight: 100;
     line-height: 128%;
   }
@@ -54,7 +54,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background: #efce2b;
+    background: var(--gold);
     height: 500px;
     width: 100%;
   }
@@ -73,7 +73,7 @@
     font-size: 74px;
     font-weight: 600;
     line-height: 85%;
-    color: #bb0600;
+    color: var(--black);
     padding: 40px;
   }
   .inter {

@@ -3,6 +3,8 @@
 }
 om-dotpattern{
   overflow: hidden;
+  width: 95%;
+  margin: auto;
 }
 a {
   font-family: "Archivo", sans-serif;
@@ -16,11 +18,12 @@ a {
 .header {
   height: 100%;
   background: #0a0a0a;
-  padding: 16px 0;
+  /* padding: 16px 0; */
   border-right: 0.2px solid rgb(32, 32, 23);
   display: flex;
   align-items: flex-start;
   gap: 40px;
+  /* margin-left: 16px; */
 }
 
 .header__container {
@@ -42,8 +45,8 @@ a {
 .mid__nav li {
   font-family: "Archivo", sans-serif;
   color: #a3a3a3;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 400;
   cursor: pointer;
   list-style: none;
 }
@@ -61,7 +64,7 @@ a {
 
 .hero {
   overflow: hidden;
-  height: 100%;
+  height: 100vh;
   background: url(../../asset/portlanding.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -72,7 +75,7 @@ a {
 
 .hero__container {
   height: 100%;
-  width: 95%;
+  width: 80%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -101,7 +104,7 @@ a {
   border-radius: 100px;
   font-family: "Archivo", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 200;
   font-style: normal;
   line-height: 180%;
 }
@@ -110,27 +113,31 @@ a {
   /* height: 100%; */
   /* width: 640px; */
 }
-
+.mobile__header{
+  display: none;
+}
 .hero__cardd {
   margin-top: 466px;
-  margin-left: -250px;
-  padding: 16px;
-  height: 180px;
+  margin-left: -180px;
+  padding: 24px 16px;
+  /* height: 180px; */
   width: 400px;
   background: #040404;
   border-radius: 24px;
   backdrop-filter: blur(20px);
+  z-index: 0;
 }
 
-p {
-  font-size: 158px;
+.coursename {
+  font-size: 98px;
   color: #f8f8f8;
-  line-height: 75%;
+  line-height: 90%;
   font-family: "Archivo", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  text-align: left;
 }
 
 .hero__btn {
@@ -151,7 +158,7 @@ p {
   flex-direction: column;
   gap: 12px;
   height: 100%;
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 
@@ -303,8 +310,8 @@ p {
 
   .hero__container {
     display: flex;
-    flex-direction: row;
-    height: 100%;
+    flex-direction: column;
+    /* height: 100%; */
   }
 
   .about,
@@ -348,11 +355,34 @@ p {
     height: 100%;
     width: 100%;
   }
-
+  .header__mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 80px;
+    background: rgba(255, 255, 255, 0);
+    transition: all ease-in-out 250ms;
+  }
+.mobile__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 80px;
+  background: rgba(255, 255, 255, 0);
+  transition: all ease-in-out 250ms;
+}
   p {
     font-size: 84px;
   }
-
+.header__container{
+  display: none;
+}
   .name {
     font-size: 24px;
   }

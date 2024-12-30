@@ -14,14 +14,36 @@
             <li class="contact" (click) = "onContact()">Contact Me</li>
           </div>
         </div>
+        <div class="mobile__header">
+          <div class="header__mobile">
+            <div class="mobile__container">
+              <div class="mobile__left">
+                <img src="../../asset/logo.png" alt="" />
+              </div>
+              <div class="mobile__right">
+                <img
+                  class="hamburger"
+                  onclick="openmenu()"
+                  src="assets/hamburger.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="mobile__nav">
+            <li class="aboutt" (click)="onConnect()" >About</li>
+            <!-- <li class="expertise" (click)="onExpertise()" >Expertise</li> -->
+            <li class="projectt" (click) = "onProject()" >Projects</li>
+            <li class="resumee" (click) = "onResume()" >Resume</li>
+            <li class="contactt" (click) = "onContact()">Contact Me</li>
+          </div>
+        </div>
       </div>
       <div class="hero__container">
         <div class="hero__card">
           <div class="name">Ayokanmi Samuel</div>
-          <p>
-            Product <br />
-            Designer
-          </p>
+          <p class="coursename">
+           Product <br> Designer 
+                    </p>
         </div>
         <div class="hero__cardd">
           <div class="hero__cardTwo">
