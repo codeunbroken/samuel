@@ -1,39 +1,81 @@
-.marquee-wrapper {
+.contact-container {
+  /* max-width: 600px; */
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  padding: 30px;
+  /* background-color: #1d1d1d; */
+  border-radius: 0px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+.contact__section{
+  height: 100vh;
+  width: 100vw;
+  background-color: #1d1d1d;
+}
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #ff6f61;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #b0b0b0;
+  margin-bottom: 25px;
+}
+
+.contact-methods {
   display: flex;
   flex-direction: column;
+  gap: 20px;
+}
+
+.contact-method {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  padding: 15px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
   position: relative;
-  width: 100vw;
-  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card {
-  border-radius: 0.75rem;
-  border: 1px solid var(--text-color);
-  padding: 2rem;
-  background: url(https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  object-fit: contain;
-  color: white;
-  height: 300px;
-  width: 320px;
+.contact-method i {
+  font-size: 24px;
+  margin-right: 15px;
 }
 
-.marquee-gradient {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 33%;
+.contact-method:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
 
-  &.left {
-    left: 0;
-    background-image: linear-gradient(to right,
-        var(--surface-background),
-        transparent);
-  }
+.contact-method span {
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
-  &.right {
-    right: 0;
-    background-image: linear-gradient(to left,
-        var(--surface-background),
-        transparent);
+.whatsapp {
+  background-color: #25D366;
+}
+
+.email {
+  background-color: #D44638;
+}
+
+.linkedin {
+  background-color: #0077B5;
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+  .contact-methods {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }

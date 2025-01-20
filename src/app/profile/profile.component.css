@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-
   }
   .about__container {
     width: 80%;
@@ -19,8 +18,7 @@
     gap: 14px;
   }
   .nav__bar {
-    background: white;
-    padding: 20px 32px;
+    background: #141414;
     width: fit-content;
     margin: auto;
     border-radius: 100px;
@@ -62,8 +60,13 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    padding-top: 55px;
+    gap: 52px;
+    /* padding-top: 55px; */
+  }
+  .about__bottomcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .about__top {
     display: flex;
@@ -73,31 +76,36 @@
   }
   .about__bottom {
     width: 100%;
-    height: 260px;
-    background: var(--gold);
-    padding-left: 42px;
-    padding-top: 56px;
+    height: 450px;
+    background: #3827c7;
+    /* padding-left: 42px;
+    padding-top: 56px; */
+    padding: 32px 72px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     gap: 8px;
   }
   .about {
-    color: var(--gold) !important;
+    color: var(--black) !important;
     font-weight: 600;
+    background: #f9f9f9;
+    padding: 12px 18px;
+    border-radius: 100px;
   }
   .experience {
     font-size: 34px;
     font-weight: 600;
     font-family: "Archivo", sans-serif;
     font-optical-sizing: auto;
-    color: var(--black);
+    color: var(--white);
+    padding-bottom: 14px;
   }
   .exp__text {
     font-family: "Archivo", sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 200;
-    line-height: 155%;
-    color: var(--red);
+    line-height: 150%;
+    color: var(--white);
   }
   .about__cardCont {
     width: 80%;
@@ -120,13 +128,13 @@
     opacity: 0.1;
   }
   .skill__title {
-    font-size: 64px;
+    font-size: 54px;
     font-weight: 400;
     font-family: "Archivo", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     color: #6e6e73;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
   }
   .prod {
     color: #6e6e73;
@@ -139,11 +147,13 @@
     display: flex;
     gap: 40px;
     justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
   }
   
   ul li {
     list-style: none;
-    color: var(--black);
+    color: #C4C4C4;
     font-family: "Archivo", sans-serif;
     font-size: 16px;
     font-weight: 400;
