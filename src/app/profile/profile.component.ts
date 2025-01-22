@@ -25,6 +25,8 @@ export class ProfileComponent {
   } 
   onResume() {
     this.router.navigateByUrl('Resume');
-  
+}
+onContact(){
+  this.router.navigateByUrl('contact')
 }
 }

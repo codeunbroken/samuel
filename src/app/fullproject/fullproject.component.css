@@ -85,9 +85,7 @@ a {
 
 .name {
   font-size: 32px;
-  color: var(--blue);
-  /* border: 0.4px solid #181616; */
-  /* width: 180px; */
+  color: #9587ff;
   padding: 12px 12px;
   border-radius: 100px;
   font-family: "Archivo", sans-serif;
@@ -138,7 +136,7 @@ a {
 
 .hero__btn {
   font-size: 16px;
-  color: #5b4adc;
+  color: #6c5ed6;
   transform: 5s;
 }
 
@@ -170,8 +168,8 @@ a {
 .about:hover,
 .expertise:hover,
 .project:hover,
-.resume:hover {
-  color: var(--blue) !important;
+.resume:hover, .contact:hover {
+  color: #9587ff !important;
   text-decoration: underline;
 }
 

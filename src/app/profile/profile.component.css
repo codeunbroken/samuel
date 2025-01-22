@@ -23,6 +23,9 @@
     margin: auto;
     border-radius: 100px;
     position: fixed;
+    box-shadow: -7px -6px 244px 5px rgba(31,27,202,0.75);
+-webkit-box-shadow: -7px -6px 244px 5px rgba(31,27,202,0.75);
+-moz-box-shadow: -7px -6px 244px 5px rgba(31,27,202,0.75);
   }
   .about__card {
     background: #181717;
@@ -141,7 +144,7 @@
   }
   .inter {
     font-size: 24px;
-    color: #4c4453;
+  color: #9587ff !important;
   }
   ul {
     display: flex;
@@ -160,7 +163,7 @@
   }
   ul li:hover {
     cursor: pointer;
-    color: var(--gold);
+  color: #9587ff !important;
   }
   .expertise{
     width: 100vw;

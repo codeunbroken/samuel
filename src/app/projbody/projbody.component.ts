@@ -29,4 +29,7 @@ onProject(){
 onResume(){
   this.router.navigateByUrl('resume');
 }
+onContact(){
+  this.router.navigateByUrl('contact')
+}
 }
