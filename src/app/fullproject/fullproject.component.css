@@ -84,15 +84,13 @@ a {
 }
 
 .name {
-  font-size: 24px;
-  color: var(--gold);
-  /* border: 0.4px solid #181616; */
-  /* width: 180px; */
+  font-size: 32px;
+  color: #9587ff;
   padding: 12px 12px;
   border-radius: 100px;
   font-family: "Archivo", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   margin-bottom: 16px;
 }
@@ -109,10 +107,6 @@ a {
   line-height: 180%;
 }
 
-.hero__card {
-  /* height: 100%; */
-  /* width: 640px; */
-}
 .mobile__header{
   display: none;
 }
@@ -142,12 +136,12 @@ a {
 
 .hero__btn {
   font-size: 16px;
-  color: #d3f350;
+  color: #6c5ed6;
   transform: 5s;
 }
 
 .hero__btn:hover {
-  color: var(--gold);
+  color: var(--blue);
   cursor: pointer;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transform: 5s;
@@ -168,14 +162,14 @@ a {
 
 .about {
   /* color: #e4f51f; */
-  color: var(--gold);
+  color: var(--blue);
 }
 
 .about:hover,
 .expertise:hover,
 .project:hover,
-.resume:hover {
-  color: var(--gold) !important;
+.resume:hover, .contact:hover {
+  color: #9587ff !important;
   text-decoration: underline;
 }
 

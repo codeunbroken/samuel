@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { NgxMarqueeComponent } from '@omnedia/ngx-marquee';
+import 'intersection-observer';
+
+
 
 @Component({
   selector: 'app-projbody',
   standalone: true,
-  imports: [],
+  imports: [NgxMarqueeComponent],
   templateUrl: './projbody.component.html',
   styleUrl: './projbody.component.css'
 })
@@ -24,5 +28,8 @@ onProject(){
 }
 onResume(){
   this.router.navigateByUrl('resume');
+}
+onContact(){
+  this.router.navigateByUrl('contact')
 }
 }
