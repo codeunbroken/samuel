@@ -28,7 +28,7 @@ header p {
 .contact-methods {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 12px;
 }
 
 .contact-method {
@@ -46,8 +46,10 @@ header p {
 }
 
 .contact-method i {
-  font-size: 24px;
-  margin-right: 15px;
+  font-size: 17px;
+  font-family: "Archivo", sans-serif;
+font-weight: 200;
+  /* margin-right: 15px; */
 }
 
 .contact-method:hover {
@@ -57,21 +59,13 @@ header p {
 
 .contact-method span {
   font-weight: 600;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
-.whatsapp {
-  background-color: #25D366;
+.whatsapp, .email, .linkedin{
+  background-color: #dfdee3;
+  color: var(--gold);
 }
-
-.email {
-  background-color: #D44638;
-}
-
-.linkedin {
-  background-color: #0077B5;
-}
-
 
 /* Copied css from about section */
 
@@ -156,7 +150,7 @@ header p {
 }
 .about__bottom {
   width: 100%;
-  height: 450px;
+  height: 300px;
   background: #3827c7;
   /* padding-left: 42px;
   padding-top: 56px; */
@@ -173,16 +167,16 @@ header p {
   border-radius: 100px;
 }
 .experience {
-  font-size: 34px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 500;
   font-family: "Archivo", sans-serif;
   font-optical-sizing: auto;
   color: var(--white);
-  padding-bottom: 14px;
+  padding-bottom: 4px;
 }
 .exp__text {
   font-family: "Archivo", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 200;
   line-height: 150%;
   color: var(--white);
@@ -251,6 +245,7 @@ ul li:hover {
 @media (min-width: 768px) {
   .contact-methods {
     flex-direction: row;
-    justify-content: space-between;
+    gap: 12px;
+    /* justify-content: space-between; */
   }
 }

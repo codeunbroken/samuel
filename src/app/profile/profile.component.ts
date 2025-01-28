@@ -24,7 +24,7 @@ export class ProfileComponent {
     this.router.navigateByUrl('project');
   } 
   onResume() {
-    this.router.navigateByUrl('Resume');
+    this.router.navigateByUrl('resume');
 }
 onContact(){
   this.router.navigateByUrl('contact')
