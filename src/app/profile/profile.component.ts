@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { ExpertComponent } from '../expert/expert.component';
+import { NgxShineBorderComponent } from '@omnedia/ngx-shine-border';
 
 @Component({
   selector: 'app-profile',
   standalone: true,
-  imports: [ExpertComponent],
+  imports: [ExpertComponent, NgxShineBorderComponent],
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.css'
 })
