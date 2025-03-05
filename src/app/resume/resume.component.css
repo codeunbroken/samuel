@@ -10,14 +10,25 @@
 .resume__body{
     width: 70%;
     margin: auto;
-    height: 70vh;
-    background: url(../../assets/portlanding.png);
+    height: 250vh;
+    background: url(../../asset/sume.png);
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: -2px -1px 103px 0px rgba(0,0,0,0.32);
+-webkit-box-shadow: -2px -1px 103px 0px rgba(0,0,0,0.32);
+-moz-box-shadow: -2px -1px 103px 0px rgba(0,0,0,0.32);
+    
 }
 .resume__body img{
     height: 100vh;
     object-fit: cover;
+    
+}
+.resume__title{
+    font-size: 64px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--blue);
 }
 .back__btn{
     width: 100px;

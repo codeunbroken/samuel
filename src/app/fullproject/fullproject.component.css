@@ -285,8 +285,13 @@ a {
     flex-direction: column;
     height: 100vh;
     width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
   }
-
+  .coursename {
+    font-size: 85px;
+  }
   .mid__nav {
     display: flex;
     flex-direction: row;
@@ -300,15 +305,16 @@ a {
   }
 
   .name {
-    font-size: 45px;
+    font-size: 35px;
   }
-
+  .hero__btn {
+    font-size: 22px;
+  }
   .hero__container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     /* height: 100%; */
   }
-
   .about,
   .project,
   .expert,
@@ -331,7 +337,7 @@ a {
     font-size: 19px;
   }
   .hero__cardd {
-    margin-top: 536px;
+    margin-top: 565px;
     margin-left: -250px;
     padding: 16px;
     height: 270px;
