@@ -7,7 +7,7 @@ import { ExpertComponent } from '../expert/expert.component';
   standalone: true,
   imports: [ExpertComponent],
   templateUrl: './profile.component.html',
-  styleUrl: './profile.component.css'
+  styleUrl: './profile.component.css',
 })
 export class ProfileComponent {
   constructor(private router: Router) {}
@@ -19,14 +19,14 @@ export class ProfileComponent {
   }
   onExpertise() {
     this.router.navigateByUrl('expertise');
-  } 
+  }
   onProject() {
     this.router.navigateByUrl('project');
-  } 
+  }
   onResume() {
-    this.router.navigateByUrl('Resume');
-}
-onContact(){
-  this.router.navigateByUrl('contact')
-}
+    this.router.navigateByUrl('resume');
+  }
+  onContact() {
+    this.router.navigateByUrl('contact');
+  }
 }
